@@ -1,0 +1,267 @@
+{
+  "app": {
+    "title": "Modern App"
+  },
+  "navbar": {
+    "home": "Management",
+    "dashboard": "Dashboard",
+    "analytics": "Analytics",
+    "scheduler": "Scheduler",
+    "workflow": "Workflow",
+    "logout": "Logout",
+    "language": "Language",
+    "theme": {
+      "toggle": "Toggle Dark/Light Mode",
+      "light": "Light Mode",
+      "dark": "Dark Mode"
+    }
+  },
+  "auth": {
+    "login": "Login",
+    "loginSubtitle": "Enter your credentials for authentication",
+    "email": "Email",
+    "password": "Password",
+    "submit": "Submit",
+    "emailRequired": "Email is required",
+    "passwordRequired": "Password is required",
+    "forgotPassword": "Forgot password?",
+    "noAccount": "Don't have an account?",
+    "signUp": "Sign up",
+    "or": "OR",
+    "logout":"Log out",
+    "continueWithGoogle": "Continue with Google",
+    "continueWithMicrosoft": "Continue with Microsoft",
+    "signingIn": "Signing in...",
+    "carousel": {
+      "slide1": {
+        "title": "Everything you need in one place ",
+        "description": "Complete Productivity Suite - tasks, notes, calendar, and more"
+      },
+      "slide2": {
+        "title": "Collaborate Efficiently",
+        "description": "Work together seamlessly with our platform"
+      },
+      "slide3": {
+        "title": "Stay Productive",
+        "description": "Boost your productivity with our features"
+      }
+    }
+  },
+  "home": {
+    "title": "Entity Management",
+    "subtitle": "Create, View, Edit & Remove Entities",
+    "welcome": "Genius Soft",
+    "description": "A modern legal practice management solution",
+    "tabMenu": {
+      "clients": "Clients",
+      "matters": "Matters",
+      "users": "Users",
+      "companies": "Companies",
+      "times": "Times"
+    }
+  },
+  "dashboard": {
+    "title": "Dashboard",
+
+    "summary": "Your activity summary",
+    "cases": "Cases",
+    "tasks": "Tasks",
+    "upcoming": "Upcoming",
+    "upcomingTasks": "Upcoming Tasks",
+    "recentActivities": "Recent Activities",
+    "teamMembers": "Team Members",
+    "mattersPerClient": "Matters Per Client",
+    "noUpcomingTasks": "No upcoming tasks found",
+    "noRecentActivities": "No recent activities found",
+    "noTeamMembers": "No team members found",
+    "retry": "Retry"
+  },
+  "scheduler": {
+    "title": "Scheduler",
+    "newAppointment": "New Appointment",
+    "details": "Appointment Details",
+    "views": {
+      "day": "Day",
+      "week": "Week",
+      "workWeek": "Work Week",
+      "month": "Month",
+      "agenda": "Agenda"
+    },
+    "header": {
+      "today": "Today",
+      "addEvent": "Add Event"
+    },
+    "event": {
+      "add": "Add Event",
+      "edit": "Edit Event",
+      "delete": "Delete Event",
+      "subject": "Subject",
+      "startTime": "Start Time",
+      "endTime": "End Time",
+      "allDay": "All Day"
+    }
+  },
+  "workflow": {
+    "title": "Workflow",
+    "subtitle": "Manage your workflow",
+    "description": "Description",
+    "averageDuration": "Average Duration",
+    "state": "State",
+    "selectProcess": "Select a process to view its flow diagram",
+    "processFlow": "{{process}}",
+    "selectProcessToView": "Select a process from the grid above to view its flow diagram",
+    "noPhases": "No process phases found for the selected process",
+    "days": "days",
+    "noDuration": "No duration set",
+    "error": {
+      "loading": "Failed to load process types",
+      "creating": "Failed to create process type",
+      "updating": "Failed to update process type",
+      "deleting": "Failed to delete process type",
+      "loadingPhases": "Failed to load process phases"
+    }
+  },
+  "analytics": {
+    "title": "Analytics Dashboard",
+    "totalUsers": "Total Users",
+    "totalClients": "Total Clients",
+    "totalMatters": "Total Matters",
+    "totalHours": "Total Hours Tracked",
+    "monthlyHoursTracked": "Monthly Hours Tracked",
+    "clientDistribution": "Client Distribution by Type",
+    "matterStatus": "Matter Status Distribution",
+    "mattersByType": "Matters by Type",
+    "topClients": "Top Clients",
+    "clientName": "Client Name",
+    "totalMatters": "Total Matters",
+    "totalHours": "Total Hours",
+    "revenue": "Revenue",
+    "monthlyTimeEntries": "Monthly Time Entries",
+    "lawyerProductivity": "Lawyer Productivity"
+  },
+  "user": {
+    "title": "Users",
+    "description": "Manage user accounts",
+    "usersList": "Users List",
+    "search": "Search users...",
+    "add": "Add User",
+    "addNew": "Add New User",
+    "edit": "Edit User",
+    "confirmDelete": "Confirm Delete",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "email": "Email",
+    "password": "Password",
+    "leaveBlankToKeepCurrent": "Leave blank to keep current password",
+    "role": "Role",
+    "selectRole": "Select a role",
+    "type": "User Type",
+    "chief": "Chief/Manager",
+    "noChief": "No chief/manager",
+    "hasChief": "Has assigned manager",
+    "noUsersTitle": "No Users Yet",
+    "noUsersDescription": "You haven't added any users yet. Click the button below to create your first user.",
+    "addFirstUser": "Add Your First User",
+    "noSearchResultsTitle": "No Results Found",
+    "noSearchResultsDescription": "No users match your search for '{{searchTerm}}'",
+    "clearSearch": "Clear Search",
+    "deleteWarningTitle": "Are you sure?",
+    "deleteWarningDescription": "This action cannot be undone. The user will be permanently deleted.",
+    "errorFetching": "Failed to load users",
+    "error": {
+      "loading": "Failed to load users",
+      "creating": "Failed to create user",
+      "updating": "Failed to update user",
+      "deleting": "Failed to delete user"
+    }
+  },
+  "common": {
+    "actions": "Actions",
+    "loading": "Loading...",
+    "cancel": "Cancel",
+    "create": "Create",
+    "update": "Update",
+    "edit": "Edit",
+    "delete": "Delete",
+    "save": "Save",
+    "noData": "No data available",
+    "retry": "Retry"
+  },
+  "client": {
+    "list": "Client List",
+    "search": "Search clients...",
+    "add": "Add Client",
+    "addNew": "Add New Client",
+    "edit": "Edit Client",
+    "confirmDelete": "Confirm Delete",
+    "shortName": "Short Name",
+    "businessName": "Business Name",
+    "taxId": "Tax ID",
+    "phone": "Phone",
+    "email": "Email",
+    "contact": "Contact Person",
+    "website": "Website",
+    "additionalNotes": "Additional Notes",
+    "country": "Country",
+    "selectCountry": "Select a country",
+    "noClientsTitle": "No Clients Yet",
+    "noClientsDescription": "You haven't added any clients yet. Click the button below to create your first client.",
+    "addFirstClient": "Add Your First Client",
+    "noSearchResultsTitle": "No Results Found",
+    "noSearchResultsDescription": "No clients match your search for '{{searchTerm}}'",
+    "clearSearch": "Clear Search",
+    "deleteWarningTitle": "Are you sure?",
+    "deleteWarningDescription": "This action cannot be undone. The client will be permanently deleted.",
+    "error": {
+      "loading": "Failed to load clients",
+      "creating": "Failed to create client",
+      "updating": "Failed to update client",
+      "deleting": "Failed to delete client"
+    }
+  },
+  "matter": {
+    "list": "Matter List",
+    "search": "Search matters...",
+    "add": "Add Matter",
+    "addNew": "Add New Matter",
+    "edit": "Edit Matter",
+    "confirmDelete": "Confirm Delete",
+    "name": "Matter Name",
+    "clientId": "Client",
+    "selectClient": "Select a client",
+    "openingDate": "Opening Date",
+    "phone": "Phone",
+    "email": "Email",
+    "contact": "Contact Person",
+    "effectiveDate": "Effective Date",
+    "agreement": "Agreement",
+    "noMattersTitle": "No Matters Yet",
+    "noMattersDescription": "You haven't added any matters yet. Click the button below to create your first matter.",
+    "addFirstMatter": "Add Your First Matter",
+    "noSearchResultsTitle": "No Results Found",
+    "noSearchResultsDescription": "No matters match your search for '{{searchTerm}}'",
+    "clearSearch": "Clear Search",
+    "deleteWarningTitle": "Are you sure?",
+    "deleteWarningDescription": "This action cannot be undone. The matter will be permanently deleted.",
+    "error": {
+      "loading": "Failed to load matters",
+      "creating": "Failed to create matter",
+      "updating": "Failed to update matter",
+      "deleting": "Failed to delete matter"
+    }
+  },
+  "validation": {
+    "required": "This field is required",
+    "emailInvalid": "Please enter a valid email address",
+    "passwordTooShort": "Password must be at least 6 characters"
+  },
+ "timeRegistry": {
+    "title": "Time Registry",
+    "selectMatter": "Select Matter",
+    "selectClient": "Select Client",
+    "startTime": "Start Time",
+    "endTime": "End Time",
+    "description": "Description",
+    "submit": "Submit"
+  }
+}

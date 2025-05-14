@@ -1,0 +1,182 @@
+.time-registry-form-container {
+  background: var(--card-background);
+  border-radius: 8px;
+  box-shadow: var(--shadow);
+  padding: 2rem;
+  width: 100%;
+  max-width: 500px;
+}
+
+.time-registry-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.form-title {
+  color: var(--text-color);
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.date-input {
+  flex: 1;
+}
+
+.time-inputs {
+  display: flex;
+  gap: 1rem;
+  flex-direction: row;
+}
+
+.time-input {
+  flex: 1;
+}
+
+.form-control {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius);
+  font-size: 1rem;
+  transition: border-color 0.2s ease;
+  background-color: var(--background-light);
+  color: var(--text-color);
+}
+
+.form-control:focus {
+  border-color: var(--primary-color);
+  outline: none;
+}
+
+.description-input {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.form-actions {
+  display: flex;
+  gap: 1rem;
+}
+
+.time-now-button, .submit-button {
+  padding: 0.75rem;
+  border: none;
+  border-radius: var(--border-radius);
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  flex: 1;
+}
+
+.time-now-button {
+  background-color: var(--background-secondary);
+  color: var(--text-color);
+}
+
+.time-now-button:hover {
+  background-color: var(--background-hover);
+}
+
+.submit-button {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.submit-button:hover {
+  filter: brightness(1.1);
+}
+
+.submit-button:disabled {
+  background-color: var(--light-gray);
+  cursor: not-allowed;
+  filter: none;
+}
+
+.form-error {
+  background-color: var(--error-color-light);
+  color: var(--error-color);
+  padding: 0.75rem;
+  border-radius: var(--border-radius);
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Syncfusion specific styles */
+.e-input-group {
+  width: 100%;
+  background-color: var(--background-light);
+}
+
+.e-input-group .e-input {
+  padding: 0.75rem;
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius);
+  font-size: 1rem;
+  background-color: var(--background-light);
+  color: var(--text-color);
+}
+
+.e-input-group:focus-within .e-input {
+  border-color: var(--primary-color);
+}
+
+.e-btn {
+  width: 100%;
+  padding: 0.75rem;
+  font-size: 1rem;
+  border-radius: var(--border-radius);
+}
+
+.e-btn-primary {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+.e-btn-primary:hover {
+  filter: brightness(1.1);
+}
+
+.e-ddl.e-input-group .e-input-value {
+  color: var(--text-color);
+  background-color: var(--background-light);
+}
+
+.e-input-group input.e-input::placeholder {
+  color: var(--text-color-light);
+}
+
+.e-popup {
+  background-color: var(--card-background);
+  border-color: var(--border-color);
+}
+
+.e-list-item {
+  color: var(--text-color);
+}
+
+.e-list-item:hover {
+  background-color: var(--background-hover);
+}
+
+.e-active {
+  background-color: var(--primary-color) !important;
+  color: white !important;
+}
+
+.e-time-wrapper, .e-date-wrapper {
+  background-color: var(--background-light);
+}
+
+.e-calendar, .e-time-container {
+  background-color: var(--card-background);
+  color: var(--text-color);
+}
+

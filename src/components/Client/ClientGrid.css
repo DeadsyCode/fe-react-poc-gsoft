@@ -1,0 +1,44 @@
+.client-grid-wrapper {
+  margin-bottom: var(--spacing-lg);
+  background-color: var(--card-background);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow);
+  padding: var(--spacing-md);
+}
+
+.client-grid-wrapper .e-grid {
+  border: none;
+  border-radius: var(--border-radius);
+  overflow: hidden;
+}
+
+.client-grid-wrapper .e-grid .e-headercell {
+  background-color: var(--primary-color-light);
+  color: var(--text-color-dark);
+  font-weight: 600;
+}
+
+.client-grid-wrapper .e-grid .e-rowcell {
+  padding: 12px 8px;
+}
+
+.client-grid-wrapper .e-grid .e-toolbar {
+  background-color: var(--card-background);
+  border-bottom: 1px solid var(--border-color);
+  padding: 8px;
+}
+
+.client-grid-wrapper .e-grid .e-toolbar .e-tbar-btn {
+  background-color: var(--primary-color);
+  color: white;
+  border-radius: var(--border-radius-sm);
+  margin-right: 8px;
+}
+
+.client-grid-wrapper .e-grid .e-toolbar .e-tbar-btn:hover {
+  background-color: var(--primary-color-dark);
+}
+
+.client-grid-wrapper .e-grid .e-headercelldiv {
+  font-size: 14px;
+}

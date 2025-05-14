@@ -1,0 +1,97 @@
+:root {
+  /* Light Theme Colors (Default) */
+  --primary-color: #ff8c00;
+  --primary-color-light: #ffd7a8;
+  --primary-color-dark: #e67e00;
+  --secondary-color: #6c757d;
+  --secondary-color-light: #a8aeb4;
+  --secondary-color-dark: #5a6268;
+  
+  --background-color: #f8f9fa;
+  --background-light: #ffffff;
+  --background-secondary: #e9ecef;
+  --background-hover: #f1f3f5;
+  
+  --card-background: #ffffff;
+  
+  --text-color: #343a40;
+  --text-color-dark: #212529;
+  --text-color-light: #6c757d;
+  --text-inverted: #ffffff;
+  
+  --border-color: #dee2e6;
+  
+  --error-color: #dc3545;
+  --error-color-light: #f8d7da;
+  --success-color: #28a745;
+  --success-color-light: #d4edda;
+  --warning-color: #ffc107;
+  --warning-color-light: #fff3cd;
+  --info-color: #17a2b8;
+  --info-color-light: #d1ecf1;
+  
+  /* Spacing */
+  --spacing-xs: 0.25rem;
+  --spacing-sm: 0.5rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 1.5rem;
+  --spacing-xl: 2rem;
+  --spacing-xxl: 3rem;
+  
+  /* Border Radius */
+  --border-radius-sm: 0.25rem;
+  --border-radius: 0.5rem;
+  --border-radius-lg: 1rem;
+  
+  /* Shadows */
+  --shadow: 0 2px 4px rgba(0, 0, 0, 0.075);
+  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  
+  /* Typography */
+  --font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  --font-size-base: 1rem;
+  --font-size-sm: 0.875rem;
+  --font-size-lg: 1.125rem;
+  --font-size-xl: 1.25rem;
+  --font-size-xxl: 1.5rem;
+  
+  /* Z-index */
+  --z-dropdown: 1000;
+  --z-sticky: 1020;
+  --z-fixed: 1030;
+  --z-modal-backdrop: 1040;
+  --z-modal: 1050;
+  --z-popover: 1060;
+  --z-tooltip: 1070;
+  
+  /* Transitions */
+  --transition-duration: 0.2s;
+  --transition-timing: ease-in-out;
+}
+
+/* Dark Theme */
+[data-theme="dark"] {
+  --primary-color: #ff8c00;
+  --primary-color-light: #e67e00;
+  --primary-color-dark: #ffd7a8;
+  
+  --background-color: #121212;
+  --background-light: #1e1e1e;
+  --background-secondary: #2d2d2d;
+  --background-hover: #3a3a3a;
+  
+  --card-background: #1e1e1e;
+  
+  --text-color: #e0e0e0;
+  --text-color-dark: #ffffff;
+  --text-color-light: #b0b0b0;
+  --text-inverted: #121212;
+  
+  --border-color: #444444;
+  
+  /* Shadow adjustments for dark mode */
+  --shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.25);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.3), 0 4px 6px -2px rgba(0, 0, 0, 0.2);
+}

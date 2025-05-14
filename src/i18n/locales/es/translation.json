@@ -1,0 +1,267 @@
+{
+  "app": {
+    "title": "Aplicación Moderna"
+  },
+  "navbar": {
+    "home": "Administración",
+    "dashboard": "Panel",
+    "analytics": "Analítica",
+    "scheduler": "Calendario",
+    "logout": "Cerrar Sesión",
+    "workflow": "Flujo Trabajo",
+    "language": "Idioma",
+    "theme": {
+      "toggle": "Cambiar Modo Claro/Oscuro",
+      "light": "Modo Claro",
+      "dark": "Modo Oscuro"
+    }
+  },
+  "auth": {
+    "login": "Inicio de Sesión",
+    "loginSubtitle": "Ingresa tus datos para la autenticación",
+    "email": "Correo Electrónico",
+    "password": "Contraseña",
+    "submit": "Iniciar Sesión",
+    "emailRequired": "El correo electrónico es requerido",
+    "passwordRequired": "La contraseña es requerida",
+    "forgotPassword": "¿Olvidaste tu contraseña?",
+    "noAccount": "¿No tienes una cuenta?",
+    "signUp": "Registrarse",
+    "or": "O",
+    "continueWithGoogle": "Continua con Google",
+    "continueWithMicrosoft": "Continua con Microsoft",
+    "signingIn": "Iniciando Sesión...",
+    "logout":"Salir",
+    "carousel": {
+      "slide1": {
+        "title": "Todo lo que necesitas en un solo lugar",
+        "description": "Suite completa de productividad - tareas, notas, calendario y más."
+      },
+      "slide2": {
+        "title": "Colabora Eficientemente",
+        "description": "Trabaja en equipo sin problemas con nuestra plataforma"
+      },
+      "slide3": {
+        "title": "Mantente Productivo",
+        "description": "Aumenta tu productividad con nuestras características"
+      }
+    }
+  },
+  "home": {
+    "title": "Administración de Entidades",
+    "subtitle": "Crear, Ver, Editar y Eliminar Entidades",
+    "welcome": "Bienvenido a la Aplicación Moderna",
+    "description": "Una solución moderna para la gestión de práctica legal",
+    "tabMenu": {
+      "clients": "Clientes",
+      "matters": "Asuntos",
+      "companies": "Empresas",
+      "times": "Tiempos",
+      "users": "Usuarios"
+    }
+  },
+  "dashboard": {
+    "title": "Panel",
+    "summary": "Resumen de actividades",
+    "cases": "Casos",
+    "tasks": "Tareas",
+    "upcoming": "Próximos",
+    "upcomingTasks": "Tareas Próximas",
+    "recentActivities": "Actividades Recientes",
+    "teamMembers": "Miembros del Equipo",
+    "mattersPerClient": "Asuntos Por Cliente",
+    "noUpcomingTasks": "No se encontraron tareas próximas",
+    "noRecentActivities": "No se encontraron actividades recientes",
+    "noTeamMembers": "No se encontraron miembros del equipo",
+    "retry": "Reintentar"
+  },
+  "scheduler": {
+    "title": "Calendario",
+    "newAppointment": "Nueva Cita",
+    "details": "Detalles de la Cita",
+    "views": {
+      "day": "Día",
+      "week": "Semana",
+      "workWeek": "Semana Laboral",
+      "month": "Mes",
+      "agenda": "Agenda"
+    },
+    "header": {
+      "today": "Hoy",
+      "addEvent": "Agregar Evento"
+    },
+    "event": {
+      "add": "Agregar Evento",
+      "edit": "Editar Evento",
+      "delete": "Eliminar Evento",
+      "subject": "Asunto",
+      "startTime": "Hora de Inicio",
+      "endTime": "Hora de Fin",
+      "allDay": "Todo el Día"
+    }
+  },
+  "workflow": {
+    "title": "Flujos de Trabajo",
+    "subtitle": "Administre y visualice sus flujos de trabajo",
+    "description": "Descripcion",
+    "averageDuration": "Duración Promedio",
+    "state": "Estado",
+    "selectProcess": "Seleccione un proceso para ver su diagrama de flujo",
+    "processFlow": "{{process}}",
+    "selectProcessToView": "Seleccione un proceso de la tabla para ver su diagrama de flujo",
+    "noPhases": "No se encontraron fases para el proceso seleccionado",
+    "days": "días",
+    "noDuration": "Sin duración establecida",
+    "error": {
+      "loading": "Error al cargar los tipos de proceso",
+      "creating": "Error al crear el tipo de proceso",
+      "updating": "Error al actualizar el tipo de proceso",
+      "deleting": "Error al eliminar el tipo de proceso",
+      "loadingPhases": "Error al cargar las fases del proceso"
+    }
+  },
+  "analytics": {
+    "title": "Tablero de Analítica",
+    "totalUsers": "Total de Usuarios",
+    "totalClients": "Total de Clientes",
+    "totalMatters": "Total de Asuntos",
+    "totalHours": "Total de Horas Registradas",
+    "monthlyHoursTracked": "Horas Registradas Mensuales",
+    "clientDistribution": "Distribución de Clientes por Tipo",
+    "matterStatus": "Distribución de Estado de Asuntos",
+    "mattersByType": "Asuntos por Tipo",
+    "topClients": "Principales Clientes",
+    "clientName": "Nombre del Cliente",
+    "totalMatters": "Total de Asuntos",
+    "totalHours": "Total de Horas",
+    "revenue": "Ingresos",
+    "monthlyTimeEntries": "Registros de Tiempo Mensuales",
+    "lawyerProductivity": "Productividad de Abogados"
+  },
+  "common": {
+    "actions": "Acciones",
+    "loading": "Cargando...",
+    "cancel": "Cancelar",
+    "create": "Crear",
+    "update": "Actualizar",
+    "edit": "Editar",
+    "delete": "Eliminar",
+    "save": "Guardar",
+    "noData": "No hay datos disponibles",
+    "retry": "Reintentar"
+  },
+  "client": {
+    "list": "Lista de Clientes",
+    "search": "Buscar clientes...",
+    "add": "Agregar Cliente",
+    "addNew": "Agregar Nuevo Cliente",
+    "edit": "Editar Cliente",
+    "confirmDelete": "Confirmar Eliminación",
+    "shortName": "Nombre Corto",
+    "businessName": "Razón Social",
+    "taxId": "NIT/ID",
+    "phone": "Teléfono",
+    "email": "Correo Electrónico",
+    "contact": "Persona de Contacto",
+    "website": "Sitio Web",
+    "additionalNotes": "Notas Adicionales",
+    "country": "País",
+    "selectCountry": "Seleccione un país",
+    "noClientsTitle": "Sin Clientes Aún",
+    "noClientsDescription": "Aún no ha agregado clientes. Haga clic en el botón a continuación para crear su primer cliente.",
+    "addFirstClient": "Agregar su Primer Cliente",
+    "noSearchResultsTitle": "No se encontraron resultados",
+    "noSearchResultsDescription": "No hay clientes que coincidan con su búsqueda de '{{searchTerm}}'",
+    "clearSearch": "Limpiar Búsqueda",
+    "deleteWarningTitle": "¿Está seguro?",
+    "deleteWarningDescription": "Esta acción no se puede deshacer. El cliente será eliminado permanentemente.",
+    "error": {
+      "loading": "Error al cargar clientes",
+      "creating": "Error al crear cliente",
+      "updating": "Error al actualizar cliente",
+      "deleting": "Error al eliminar cliente"
+    }
+  },
+  "matter": {
+    "list": "Lista de Asuntos",
+    "search": "Buscar asuntos...",
+    "add": "Agregar Asunto",
+    "addNew": "Agregar Nuevo Asunto",
+    "edit": "Editar Asunto",
+    "confirmDelete": "Confirmar Eliminación",
+    "name": "Nombre del Asunto",
+    "clientId": "Cliente",
+    "selectClient": "Seleccione un cliente",
+    "openingDate": "Fecha de Apertura",
+    "phone": "Teléfono",
+    "email": "Correo Electrónico",
+    "contact": "Persona de Contacto",
+    "effectiveDate": "Fecha Efectiva",
+    "agreement": "Acuerdo",
+    "noMattersTitle": "Sin Asuntos Aún",
+    "noMattersDescription": "Aún no ha agregado asuntos. Haga clic en el botón a continuación para crear su primer asunto.",
+    "addFirstMatter": "Agregar su Primer Asunto",
+    "noSearchResultsTitle": "No se encontraron resultados",
+    "noSearchResultsDescription": "No hay asuntos que coincidan con su búsqueda de '{{searchTerm}}'",
+    "clearSearch": "Limpiar Búsqueda",
+    "deleteWarningTitle": "¿Está seguro?",
+    "deleteWarningDescription": "Esta acción no se puede deshacer. El asunto será eliminado permanentemente.",
+    "error": {
+      "loading": "Error al cargar asuntos",
+      "creating": "Error al crear asunto",
+      "updating": "Error al actualizar asunto",
+      "deleting": "Error al eliminar asunto"
+    }
+  },
+  "validation": {
+    "required": "Este campo es obligatorio",
+    "emailInvalid": "Por favor ingrese un correo electrónico válido",
+    "passwordTooShort": "La contraseña debe tener al menos 6 caracteres"
+  },
+  "timeRegistry": {
+    "title": "Registro de Tiempo",
+    "selectMatter": "Seleccionar Asunto",
+    "selectClient": "Seleccionar Cliente",
+    "startTime": "Hora de Inicio",
+    "endTime": "Hora de Fin",
+    "description": "Descripción",
+    "submit": "Enviar"
+  },
+
+  "user": {
+    "title": "Usuarios",
+    "description": "Administrar cuentas de usuario",
+    "usersList": "Lista de Usuarios",
+    "search": "Buscar usuarios...",
+    "add": "Agregar Usuario",
+    "addNew": "Agregar Nuevo Usuario",
+    "edit": "Editar Usuario",
+    "confirmDelete": "Confirmar Eliminación",
+    "firstName": "Nombre",
+    "lastName": "Apellido",
+    "email": "Correo Electrónico",
+    "password": "Contraseña",
+    "leaveBlankToKeepCurrent": "Dejar en blanco para mantener la contraseña actual",
+    "role": "Rol",
+    "selectRole": "Seleccione un rol",
+    "type": "Tipo de Usuario",
+    "chief": "Jefe/Gerente",
+    "noChief": "Sin jefe/gerente",
+    "hasChief": "Tiene gerente asignado",
+    "noUsersTitle": "Sin Usuarios Aún",
+    "noUsersDescription": "Aún no ha agregado usuarios. Haga clic en el botón a continuación para crear su primer usuario.",
+    "addFirstUser": "Agregar su Primer Usuario",
+    "noSearchResultsTitle": "No se encontraron resultados",
+    "noSearchResultsDescription": "No hay usuarios que coincidan con su búsqueda de '{{searchTerm}}'",
+    "clearSearch": "Limpiar Búsqueda",
+    "deleteWarningTitle": "¿Está seguro?",
+    "deleteWarningDescription": "Esta acción no se puede deshacer. El usuario será eliminado permanentemente.",
+    "errorFetching": "Error al cargar usuarios",
+    "error": {
+      "loading": "Error al cargar usuarios",
+      "creating": "Error al crear usuario",
+      "updating": "Error al actualizar usuario",
+      "deleting": "Error al eliminar usuario"
+    }
+  }
+}

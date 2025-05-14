@@ -1,0 +1,52 @@
+{
+  "auth": {
+    "login": "Iniciar sesión",
+    "loginSubtitle": "¡Bienvenido de nuevo! Por favor ingresa tus datos",
+    "email": "Correo electrónico",
+    "password": "Contraseña",
+    "forgotPassword": "¿Olvidaste tu contraseña?",
+    "submit": "Iniciar sesión",
+    "signingIn": "Iniciando sesión...",
+    "noAccount": "¿No tienes una cuenta?",
+    "signUp": "Regístrate",
+    "or": "O",
+    "continueWithGoogle": "Continuar con Google",
+    "continueWithMicrosoft": "Continuar con Microsoft",
+    "carousel": {
+      "slide1": {
+        "title": "Bienvenido a Genius Soft",
+        "description": "Optimiza tu flujo de trabajo con nuestras potentes herramientas"
+      },
+      "slide2": {
+        "title": "Colabora Eficientemente",
+        "description": "Trabaja en equipo sin problemas con nuestra plataforma"
+      },
+      "slide3": {
+        "title": "Mantente Productivo",
+        "description": "Aumenta tu productividad con nuestras características"
+      }
+    }
+  },
+  "scheduler": {
+    "views": {
+      "day": "Día",
+      "week": "Semana",
+      "workWeek": "Semana Laboral",
+      "month": "Mes",
+      "agenda": "Agenda"
+    },
+    "header": {
+      "today": "Hoy",
+      "addEvent": "Agregar Evento"
+    },
+    "event": {
+      "add": "Agregar Evento",
+      "edit": "Editar Evento",
+      "delete": "Eliminar Evento",
+      "subject": "Asunto",
+      "startTime": "Hora de Inicio",
+      "endTime": "Hora de Fin",
+      "allDay": "Todo el Día"
+    }
+  }
+}

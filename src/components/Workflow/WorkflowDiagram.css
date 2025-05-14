@@ -1,0 +1,28 @@
+.workflow-diagram-content {
+  height: 300px;
+  width: 100%;
+  overflow: auto;
+  align-items: center;
+  justify-content: center;
+}
+/* Custom styling for the diagram nodes */
+.e-diagram .e-node {
+  transition: all 0.3s ease;
+}
+.e-diagram .e-node:hover {
+  filter: brightness(105%);
+  transform: scale(1.02);
+}
+/* Custom styling for the connectors */
+.e-diagram .e-connector {
+  transition: stroke-width 0.3s ease;
+}
+.e-diagram .e-connector:hover {
+  stroke-width: 3px !important;
+}
+
+.e-diagram {
+  background-color: #fafafa;
+  border-radius: 8px;
+  justify-content: center;
+}

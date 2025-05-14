@@ -1,0 +1,61 @@
+{
+  "auth": {
+    "login": "Login",
+    "loginSubtitle": "Welcome back! Please enter your details",
+    "email": "Email",
+    "password": "Password",
+    "forgotPassword": "Forgot password?",
+    "submit": "Sign In",
+    "signingIn": "Signing in...",
+    "noAccount": "Don't have an account?",
+    "signUp": "Sign up",
+    "or": "OR",
+    "continueWithGoogle": "Continue with Google",
+    "continueWithMicrosoft": "Continue with Microsoft",
+    "carousel": {
+      "slide1": {
+        "title": "Welcome to Genius Soft",
+        "description": "Streamline your workflow with our powerful tools"
+      },
+      "slide2": {
+        "title": "Collaborate Efficiently",
+        "description": "Work together seamlessly with our platform"
+      },
+      "slide3": {
+        "title": "Stay Productive",
+        "description": "Boost your productivity with our features"
+      }
+    }
+  },
+  "scheduler": {
+    "views": {
+      "day": "Day",
+      "week": "Week",
+      "workWeek": "Work Week",
+      "month": "Month",
+      "agenda": "Agenda"
+    },
+    "header": {
+      "today": "Today",
+      "addEvent": "Add Event"
+    },
+    "event": {
+      "add": "Add Event",
+      "edit": "Edit Event",
+      "delete": "Delete Event",
+      "subject": "Subject",
+      "startTime": "Start Time",
+      "endTime": "End Time",
+      "allDay": "All Day"
+    }
+  },
+  "timeRegistry": {
+    "title": "Time Registry",
+    "selectProject": "Select Project",
+    "selectActivity": "Select Activity",
+    "startTime": "Start Time",
+    "endTime": "End Time",
+    "description": "Description",
+    "submit": "Submit"
+  }
+}

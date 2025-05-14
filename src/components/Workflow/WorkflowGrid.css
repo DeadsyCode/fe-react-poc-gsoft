@@ -1,0 +1,215 @@
+/* WorkflowGrid Container Styles */
+.workflow-grid-wrapper {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+/* SyncFusion Grid Common Styles */
+.e-grid {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  border: none !important;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* Grid Header Styles */
+.e-grid .e-gridheader {
+  background-color: #f8f9fa;
+  border-bottom: 2px solid #e9ecef;
+}
+
+.e-grid .e-headercell {
+  background-color: #f8f9fa;
+  color: #495057;
+  font-weight: 600;
+  padding: 1rem;
+  border-right: 1px solid #f0f0f0;
+}
+
+.e-grid .e-headercelldiv {
+  font-size: 1rem;
+}
+
+/* Grid Content Styles */
+.e-grid .e-gridcontent {
+  background-color: #ffffff;
+}
+
+.e-grid .e-rowcell {
+  color: #333;
+  font-size: 0.9rem;
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid #f0f0f0;
+  border-right: 1px solid #f0f0f0;
+}
+
+.e-grid .e-altrow {
+  background-color: #f8f9fa;
+}
+
+/* Hover and Selection Styles */
+.e-grid .e-rowcell.e-selectionbackground {
+  background-color: rgba(245, 124, 53, 0.1);
+}
+
+.e-grid .e-row:hover .e-rowcell {
+  background-color: rgba(245, 124, 53, 0.05);
+}
+
+/* Pager Styles */
+.e-grid .e-pager {
+  background-color: #f8f9fa;
+  border-top: 1px solid #e9ecef;
+  padding: 1rem;
+  font-size: 0.9rem;
+}
+
+.e-grid .e-pager .e-pagercontainer {
+  border: none;
+}
+
+.e-grid .e-pager .e-link {
+  color: #495057;
+}
+
+.e-grid .e-pager .e-numericitem.e-currentitem {
+  background-color: #F57C35;
+  color: white;
+}
+
+/* Toolbar Styles */
+.e-grid .e-toolbar {
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #e9ecef;
+  padding: 0.75rem 1rem;
+}
+
+.e-grid .e-toolbar .e-btn {
+  background: white;
+  border: 1px solid #e9ecef;
+  border-radius: 4px;
+  color: #495057;
+  margin-right: 0.5rem;
+}
+
+.e-grid .e-toolbar .e-btn:hover {
+  background-color: #f8f9fa;
+  color: #F57C35;
+}
+
+/* Search Box Styles */
+.e-grid .e-search {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.e-grid .e-searchbox {
+  border-radius: 4px;
+  height: 36px;
+}
+
+/* Dialog Styles */
+.e-dialog {
+  border-radius: 8px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.e-dialog .e-dlg-header {
+  background-color: #f8f9fa;
+  color: #495057;
+  font-weight: 600;
+  padding: 1rem;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.e-dialog .e-dlg-content {
+  padding: 1.5rem;
+}
+
+.e-dialog .e-footer-content {
+  padding: 1rem;
+  background-color: #f8f9fa;
+  border-top: 1px solid #e9ecef;
+}
+
+/* Dialog Form Styles */
+.e-dialog .e-input-group {
+  margin-bottom: 1rem;
+}
+
+.e-dialog .e-input {
+  height: 36px;
+  border-radius: 4px;
+  border: 1px solid #ced4da;
+}
+
+.e-dialog .e-input:focus {
+  border-color: #F57C35;
+  box-shadow: 0 0 0 2px rgba(245, 124, 53, 0.25);
+}
+
+/* Dialog Button Styles */
+.e-dialog .e-btn {
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  font-weight: 500;
+}
+
+.e-dialog .e-btn.e-primary {
+  background-color: #F57C35;
+  border-color: #F57C35;
+  color: white;
+}
+
+.e-dialog .e-btn.e-primary:hover {
+  background-color: #F57C35;
+  border-color: #F57C35;
+}
+
+.e-dialog .e-btn.e-flat {
+  background: transparent;
+  color: #495057;
+  border: 1px solid #ced4da;
+}
+
+.e-dialog .e-btn.e-flat:hover {
+  background-color: #f8f9fa;
+}
+
+/* Checkbox Styles */
+.e-checkbox-wrapper .e-frame.e-check {
+  background-color: #F57C35;
+  border-color: #F57C35;
+}
+.e-checkbox-wrapper:hover .e-frame.e-check, .e-css.e-checkbox-wrapper:hover .e-frame.e-check{
+  background-color: #F57C35 !important;
+}
+
+.e-checkbox-wrapper .e-frame.e-check, .e-css.e-checkbox-wrapper .e-frame.e-check{
+  background-color: #F57C35 !important;
+}
+
+
+.e-grid .e-filtered::before
+{
+  color: #F57C35 !important;
+}
+.e-excelfilter .e-filtered::before
+{
+  color: #F57C35 !important;
+}
+e-float-input textarea::selection
+{
+  color: #F57C35 !important;
+}
+
+/* Animation Styles */
+.e-grid,
+.e-pager,
+.e-toolbar,
+.e-dialog {
+  transition: all 0.3s ease;
+}

@@ -1,0 +1,337 @@
+.scheduler-page-heading {
+  padding: 1rem 2rem 0;
+}
+
+.scheduler-page-heading h1 {
+  margin: 0;
+  color: var(--text-color);
+  font-size: 1.75rem;
+}
+
+.scheduler-container {
+  width: 100%;
+  flex: 2;
+  background: var(--card-background);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow);
+  padding: 1rem;
+  height: 100%;
+  align-self: flex-start;
+  overflow: hidden;
+}
+
+.scheduler {
+  height: 100%;
+}
+
+.time-registry-form {
+  flex: 1.2;
+  min-width: 300px;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+}
+
+.time-registry-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 1rem 2rem 2rem;
+  min-height: calc(100vh - 140px); /* Adjust based on your header height and page heading */
+}
+
+.error-message {
+  background-color: var(--error-color-light);
+  color: var(--error-color);
+  padding: 0.75rem;
+  border-radius: var(--border-radius);
+  margin-bottom: 1rem;
+}
+
+.scheduler-loading,
+.scheduler-error {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  min-height: 400px;
+}
+
+.spinner {
+  width: 40px;
+  height: 40px;
+  border: 4px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  border-top: 4px solid var(--primary, #ff8c00);
+  animation: spin 1s linear infinite;
+  margin-bottom: var(--spacing-md, 1rem);
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.scheduler-error button {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: var(--primary, #ff8c00);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.scheduler-error button:hover {
+  background-color: var(--primary-dark, #e67e00);
+}
+
+/* Schedule event template styling */
+.schedule-event-template {
+  padding: 4px;
+  overflow: hidden;
+  height: 100%;
+  background-color: var(--success-color);
+}
+
+.event-subject {
+  font-weight: bold;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: 2px;
+  color: white;
+}
+
+.event-client, .event-matter {
+  font-size: 0.8rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Responsive adjustments */
+@media (max-width: 992px) {
+  .time-registry-container {
+    flex-direction: column;
+  }
+
+  .scheduler-container, .time-registry-form {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+/* Custom CSS to change the default red selection color to orange */
+
+/* Add this to your CSS file (like App.css) */
+
+
+
+
+/* For current timeline indicator */
+.e-schedule .e-vertical-view .e-current-timeline {
+  border-top: 1px solid var(--primary-color) !important;
+}
+
+/* For previous timeline */
+.e-schedule .e-vertical-view .e-previous-timeline {
+  border-top: 1px dotted var(--primary-color) !important;
+}
+
+/* For current date in month view */
+.e-schedule .e-month-view .e-current-date .e-date-header,
+.e-schedule .e-month-agenda-view .e-current-date .e-date-header {
+  background-color: var(--primary-color) !important;
+}
+
+/* For current day in header */
+.e-schedule .e-month-view .e-date-header-wrap table td.e-current-day,
+.e-schedule .e-month-agenda-view .e-date-header-wrap table td.e-current-day {
+  color: var(--primary-color) !important;
+}
+
+/* For appointment selection border */
+.e-schedule .e-appointment.e-selected {
+  border: 2px solid var(--primary-color) !important;
+}
+
+/* For quick selection popup */
+.e-quick-popup-wrapper .e-event-popup .e-popup-header {
+  background-color: var(--primary-color) !important;
+}
+
+/* For active option in dropdown */
+.e-dropdown-popup .e-ul .e-item.e-active {
+  background-color: var(--primary-color) !important;
+  color: white !important;
+}
+
+.e-calendar .e-content td.e-selected span,
+.e-calendar .e-content td.e-focused-date.e-selected span,
+.e-bigger.e-small .e-calendar .e-content td.e-selected span,
+.e-calendar .e-content td.e-today.e-selected span {
+  background-color: var(--primary-color) !important;
+  color: white !important;
+  border-color: var(--primary-color) !important;
+}
+
+/* Today button in calendar popup */
+.e-calendar .e-footer-container .e-btn.e-today,
+.e-calendar .e-footer-container .e-flat.e-btn.e-today {
+  color: var(--primary-color) !important;
+}
+
+/* Today button hover in calendar popup */
+.e-calendar .e-footer-container .e-btn.e-today:hover,
+.e-calendar .e-footer-container .e-flat.e-btn.e-today:hover {
+  background-color: rgba(245, 124, 53, 0.15) !important;
+}
+
+.e-schedule .e-vertical-view .e-day-date-header.e-current-day,
+.e-schedule .e-timeline-view .e-current-day {
+  border-bottom: 2px solid var(--primary-color) !important;
+}
+
+.e-calendar .e-content td.e-today span.e-day,
+.e-calendar .e-content td.e-focused-date.e-today span.e-day {
+  color: var(--primary-color) !important;
+  border: 1px solid var(--primary-color);
+}
+
+/* Syncfusion Schedule theme integration */
+.e-schedule {
+  height: 100% !important;
+  background-color: var(--card-background);
+  color: var(--text-color);
+}
+
+.e-schedule .e-schedule-toolbar {
+  background-color: var(--card-background);
+  border-bottom: 1px solid var(--border-color);
+}
+
+.e-schedule .e-toolbar-items {
+  background-color: var(--card-background);
+}
+
+.e-schedule .e-toolbar .e-toolbar-items .e-toolbar-item .e-tbar-btn {
+  background-color: var(--card-background);
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius);
+  margin: 0 4px;
+  color: var(--text-color);
+}
+
+.e-schedule .e-toolbar .e-toolbar-items .e-toolbar-item .e-tbar-btn:hover {
+  background-color: var(--background-hover);
+}
+
+.e-schedule .e-toolbar .e-toolbar-items .e-toolbar-item .e-tbar-btn-text {
+  color: var(--text-color);
+}
+
+.e-schedule .e-toolbar .e-toolbar-items .e-toolbar-item .e-tbar-btn.e-active {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+.e-schedule .e-toolbar .e-toolbar-items .e-toolbar-item .e-tbar-btn.e-active .e-tbar-btn-text {
+  color: white;
+}
+
+/* Calendar cells */
+.e-schedule .e-month-view .e-work-cells,
+.e-schedule .e-vertical-view .e-work-cells,
+.e-schedule .e-timeline-view .e-work-cells {
+  background-color: var(--card-background);
+}
+
+.e-schedule .e-month-view .e-work-cells:hover,
+.e-schedule .e-vertical-view .e-work-cells:hover,
+.e-schedule .e-timeline-view .e-work-cells:hover {
+  background-color: var(--background-hover);
+}
+
+/* Appointment styling */
+.e-schedule .e-appointment {
+  color: var(--text-color-dark);
+  border-radius: var(--border-radius-sm);
+}
+
+/* Header cells */
+.e-schedule .e-month-view .e-header-cells,
+.e-schedule .e-vertical-view .e-header-cells,
+.e-schedule .e-timeline-view .e-header-cells {
+  background-color: var(--background-secondary);
+  color: var(--text-color);
+}
+
+/* Date navigators */
+.e-schedule .e-schedule-toolbar .e-toolbar-items .e-toolbar-item button.e-prev,
+.e-schedule .e-schedule-toolbar .e-toolbar-items .e-toolbar-item button.e-next,
+.e-schedule .e-schedule-toolbar .e-toolbar-items .e-toolbar-item button.e-today {
+  color: var(--text-color);
+}
+
+.e-schedule .e-schedule-toolbar .e-toolbar-items .e-toolbar-item button.e-prev:hover,
+.e-schedule .e-schedule-toolbar .e-toolbar-items .e-toolbar-item button.e-next:hover,
+.e-schedule .e-schedule-toolbar .e-toolbar-items .e-toolbar-item button.e-today:hover {
+  background-color: var(--background-hover);
+}
+
+/* Popup content */
+.e-schedule-dialog,
+.e-quick-popup-wrapper {
+  background-color: var(--card-background);
+  color: var(--text-color);
+  border-color: var(--border-color);
+}
+
+.e-more-popup-wrapper .e-appointment
+{
+  background-color: var(--success-color);
+}
+.e-appointment-details{
+  background-color: var(--success-color);
+}
+
+.e-header-icon-wrapper{
+  background-color: var(--success-color);
+  background: var(--success-color);
+}
+
+.e-subject-wrap{
+  background-color: var(--success-color);
+}
+
+.e-input-group:not(.e-success):not(.e-warning):not(.e-error):not(.e-float-icon-left),
+.e-input-group.e-control-wrapper:not(.e-success):not(.e-warning):not(.e-error):not(.e-float-icon-left) {
+  border-color: rgba(0, 0, 0, 0.42);
+}
+
+/* Change the border color during focus animation */
+.e-input-group:not(.e-success):not(.e-warning):not(.e-error):not(.e-float-icon-left).e-input-focus::after,
+.e-input-group.e-control-wrapper:not(.e-success):not(.e-warning):not(.e-error):not(.e-float-icon-left).e-input-focus::after {
+  background-color: var(--primary-color); /* Change this to your desired color */
+}
+
+/* For filled style ComboBox */
+.e-ddl.e-input-group.e-control-wrapper.e-input-focus::before {
+  background-color: var(--primary-color); /* Change this to your desired color */
+}
+
+.e-input-group:not(.e-success):not(.e-warning):not(.e-error):not(.e-float-icon-left).e-input-focus::after,
+.e-input-group.e-control-wrapper:not(.e-success):not(.e-warning):not(.e-error):not(.e-float-icon-left).e-input-focus::after,
+.e-float-input.e-control-wrapper.e-input-focus:not(.e-success):not(.e-warning):not(.e-error)::after,
+.e-float-input.e-input-focus:not(.e-success):not(.e-warning):not(.e-error)::after {
+  background-color: var(--primary-color);
+}
+
+.e-schedule .e-month-view .e-current-date .e-date-header, .e-schedule .e-month-agenda-view .e-current-date .e-date-header
+{
+  background-color: transparent !important;
+  color: var(--primary-color);
+}
